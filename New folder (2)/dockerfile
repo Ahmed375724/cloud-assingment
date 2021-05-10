@@ -1,0 +1,4 @@
+FROM python
+COPY . /Docker
+WORKDIR /Docker
+CMD python TheCode.py
